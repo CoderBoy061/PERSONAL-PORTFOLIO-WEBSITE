@@ -1,0 +1,77 @@
+.resume_heading{
+    display: flex;
+    justify-content: space-around;
+}
+.resume_education{
+    display: flex;
+    justify-content: space-around;
+}
+.resume{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+.resume_projects{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.project_details{
+    width: 37%;
+    
+}
+.resume_skill{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.resume_aditional{
+    display: flex;
+    justify-content: space-around;
+}
+.resume_heading{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+.resume_education{
+    padding: 10px;
+}
+.resume_projects{
+    padding: 10px;
+}
+.resume_skill{
+    padding: 10px;
+}
+.resume_aditional{
+    padding: 10px;
+}
+.education_heading{
+    margin-left: 25px;
+}
+.project_heading{
+    margin-left: -5px;
+}
+.skill_heading{
+    width: fit-content;
+    margin-left: 2vw;
+}
+.name_details{
+    margin-right: 10vw;
+}
+.education_details{
+    margin-right: 1vw;
+}
+.project_details{
+    margin-right: 4vw;
+}
+.skill_details{
+    margin-right: 24.5vw;
+}
+.aditional_details{
+    margin-right: 12vw;
+}

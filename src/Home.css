@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+.home_section_image{
+    width: 100%;
+    height: 600px;
+}
+.centered {
+    position: absolute;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    height: 50vh;
+    color: #f1f1f1; /* Grey text */
+    top: 50%;
+    left: 30%;
+    margin-left: 5vw;
+    transform: translate(-50%, -50%);
+  }
+  .container_btn{
+    padding: 15px;
+    width: 15vw;
+    font-size: 18px;
+    background-color: #0476B5;
+    color: white;
+    margin-top: 5vh;
+    font-family: cursive;
+    margin-left: 2vw;
+    border-radius: 8px;
+
+  }
+  .centered > h1 {
+      margin-top: 2vh;
+      padding: 10px;
+      width: 80%;
+      font-family: 'New Tegomin', serif;
+  }
+  .centered > h2 {
+    margin-top: 2vh;
+    padding: 10px;
+    font-family: 'Zen Dots', cursive;
+}
+.container_btn:hover{
+    background-color: white;
+    color: black;
+}
+.about_section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    margin-top: -4px;
+}
+.about_image{
+    height: 400px;
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.about_content{
+    width: 40%;
+    text-align: center;
+    padding: 30px;
+}
+.about_text{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Zen Dots', cursive;
+  
+}
+.heading_link{
+    display: flex;
+    padding: 0 50px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: yellow;
+    font-family: cursive;
+    margin: 0 10px;
+}
+
+.heading_link >p:hover{
+    border-bottom: 2px solid white;
+}
+.footer_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_icons{
+    height: 40px;
+    padding: 0 20px;
+}
+.footer_contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E3E2DF;
+    padding: 25px 0;
+}
+.footer_text{
+    font-size: 20px;
+    color: black;
+    font-family: 'Zen Dots', cursive;
+    text-shadow: 1px 1px  black;
+}

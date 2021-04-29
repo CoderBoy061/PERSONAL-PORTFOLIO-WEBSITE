@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #232f3e;
+}
+.header_option{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+   
+    
+}
+.header_link{
+    padding: 8px 30px;
+    text-decoration: none;
+    font-family: 'New Tegomin', serif;
+    font-weight: bold;
+   
+    
+}
+.heading_text{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Zen Dots', cursive;
+    font-weight: bold;
+    color: white;
+}
+.header_link:hover{
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 10px;
+    border-color: yellow;
+
+
+}
